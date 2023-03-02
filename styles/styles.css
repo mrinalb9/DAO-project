@@ -5,16 +5,16 @@
 }
 nav {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .navbar {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .menu {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .menu > ul {
     display: flex;
@@ -28,5 +28,5 @@ nav {
 /* Utility Buttons */
 nav .menu .btn {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
