@@ -1,32 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lato:wght@700&Roboto:wght@100;300;400;500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    height: 8.5vh;
+    background-color: #000;
 }
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #000;
+    padding: 10px;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-.menu {
+.logo-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
-.menu > ul {
+.logo-menu img {
+    height: 35px;
+    width: 19%;
+    margin: auto 3rem;
+}
+.logo-menu .container {
+    display: flex;
+    height: 40px;
+    width: 0.1px;
+    background-color: #fff;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: 0.10rem;
+}
+.logo-menu > ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 50px;
+    margin-left: 3.9rem ;
 }
-.menu a {
+.logo-menu a {
     text-decoration: none;
+    color: white;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.btn {
+    display: flex;
+    align-self: flex-start;
+    position: relative;
+    top: 0.20rem;
+}
+.btn button {
+    padding: 8px 25px;
+    font-weight: 700;
+    margin: auto 4rem;
+    justify-content: center;
+}
+
+/* Main Section */
+
+.main-section {
+    background-image: url('/assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 126%;
+    height: 91.5vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.main-section .theme-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+.main-section .theme .theme-content h1 {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0.5rem 15rem;
+}
+
+.main-section .theme .theme-content p {
+    font-size: 1.2rem;
+    font-size: bold;
+    padding: 0.65rem;
+}
+
+.main-section .theme .theme-btn button {
+    padding: 0.55rem 1.3rem;
+    font-size: 1.5rem;
+    margin: 40px auto;
 }
 
 /* Utility Buttons */
-nav .menu .btn {
-    display: flex;
-    justify-content: space-between;
+button {
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: #B90EC5;
+    border: 0;
+    border-radius: 0.25rem;
+    color: #fff;
 }
